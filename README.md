@@ -30,7 +30,7 @@ The following images show the metric scores of random forest and the decision tr
 
 #Visual representation of the confusion matrix of the random forest classification.
 
-<img src=".\week 1\results\confmatrix.png">
+<img src="results/confmatrix.png">
 
 
 
