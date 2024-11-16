@@ -3,11 +3,11 @@
 
 In this project, we are going to predict the fraudulent transactions of a credit card. In this we are using a dataset provided by the Kaggle for the training of the model. This dataset consists of 284807 credit card transactions in which up to 492 are fraud transactions. The data is now read by the model and the model describes the data shape and the description of the data. The following data gives the outliers(fraudulent transactions), genuine and the outliers fraction.
 
-<img height=400 src=".\week 1\results\dataread.png"/>
+<img height=400 src="results/dataread.png"/>
 
 So to understand the correlation between all the given features we can use the correlation matrix(heatmap).This gives us a deeper understanding of the Data available to us. In the HeatMap we can clearly see that most of the features do not correlate to other features but there are some features that either has a positive or a negative correlation with each other. For example, V2 and V5 are highly negatively correlated with the feature called Amount. We also see some correlation with V20 and Amount.
 
-<img src=".\week 1\results\heatmap.png"/>
+<img src="results/heatmap.png"/>
 
 Few evaulating parameters and metrics used to test the model accuracy.
 * **Accuracy score**: In this accuracy score, it the proportion of correctly classified instances out of all instances. It’s suitable for balanced datasets but may mislead when classes are imbalanced.
@@ -24,8 +24,8 @@ Few evaulating parameters and metrics used to test the model accuracy.
 
 The following images show the metric scores of random forest and the decision tree model  classification.
 
-<img src=".\week 1\results\randomforest.png">
-<img src=".\week 1\results\decisiontree.png">
+<img src="results/randomforest.png">
+<img src="results/decisiontree.png">
 
 
 #Visual representation of the confusion matrix of the random forest classification.
