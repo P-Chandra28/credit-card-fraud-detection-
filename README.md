@@ -1,4 +1,5 @@
-# Movie-Genre-Multi-Label-Text-Classification
+# Credit CardFraud Detection using Random forest and Decision tree alogrithm
+
 
 In this project, we are going to predict the fraudulent transactions of a credit card. In this we are using a dataset provided by the Kaggle for the training of the model. This dataset consists of 284807 credit card transactions in which up to 492 are fraud transactions. The data is now read by the model and the model describes the data shape and the description of the data. The following data gives the outliers(fraudulent transactions), genuine and the outliers fraction.
 
